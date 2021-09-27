@@ -5,7 +5,7 @@ import { faCoffee, faUserFriends } from '@fortawesome/free-solid-svg-icons';
 import './Product.css';
 const Product = (props) => {
     console.log(props.product);
-    const { name, img, salary, role, age } = props.product;
+    const { name, img, salary, role, age, country } = props.product;
     const element = <FontAwesomeIcon icon={faUserFriends} />;
     return (
         <div className="my-product">
@@ -15,6 +15,7 @@ const Product = (props) => {
             <h2>{name}</h2>
 
             <h3>Role:{role}</h3>
+            <h3>Country:{country}</h3>
             <h4>Age:{age}</h4>
             <h4>$:{salary}</h4>
             <button
