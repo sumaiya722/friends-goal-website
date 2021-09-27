@@ -1,0 +1,9 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.733);
+margin-bottom: 5px;
+}
+.my-doc{
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}

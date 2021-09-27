@@ -1,0 +1,25 @@
+
+.my-img img{
+    width: 220px;
+    height: 220px;
+}
+.my-product{
+    background-color: white;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5% ;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray
+}
+.my-btn{
+    text-decoration: none;
+    background-image: linear-gradient(hotpink,rgba(128, 0, 128, 0.747));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
